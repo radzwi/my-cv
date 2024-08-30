@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.experience {
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &.work {
+    border-top-right-radius: 5%;
+  }
+  &.education {
+    border-bottom-left-radius: 5%;
+  }
+  &__row {
+    display: flex;
+    flex-direction: row;
+    &--year{
+      font-weight: 900;
+    }
+    &--description {
+      border-bottom: 1px solid $gradientLeft;
+      padding-bottom: 10px;
+      margin: 0 0 20px 20px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import '../../styles/variables';
+
+.whoIAm {
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5%;
+  &__name{
+    font-weight: 900;
+    font-size: 1.1rem;
+  }
+  &__photo {
+    border-radius: 50%;
+    border: 6px solid transparent; 
+    background: linear-gradient(45deg,$gradientLeft,$gradientRight) border-box;
+    height: 50%;
+    width: 50%;
+    margin: 5% 0;
+  }
+}

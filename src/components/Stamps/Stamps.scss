@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.stamps {
+  width: 100%;
+  background-color: $black;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 50px);
+  justify-content: center;
+  align-content: center;
+  &.passion {
+    border-bottom-right-radius: 5%;
+  }
+  svg {
+    font-size: 1.5rem;
+  }
+}

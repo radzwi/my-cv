@@ -1,0 +1,26 @@
+@import '../../styles/variables';
+
+.contact {
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    &.contact__list {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      li {
+        padding-bottom: 10px;
+        svg {
+          font-size: 1.5rem;
+          width: 30px;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
